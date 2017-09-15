@@ -14,11 +14,11 @@ boolean stringComplete = false;
 int pos = 0;    // variable to store the servo position
 
 void setup() {
-  Serial.begin(9600); //initialize serial
+  Serial.begin(9600); //initialize serial 
   inputString.reserve(200);
   
-  Left.attach(9);
-  Right.attach(10);
+  Left.attach(9);		// Servo 1 
+  Right.attach(10);		//Servo 2
   Middle.attach(11);   // attaches the servo on pin 11 to the servo object
 }
 
