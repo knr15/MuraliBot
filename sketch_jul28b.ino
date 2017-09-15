@@ -1,6 +1,8 @@
 
 #include <Servo.h>
 
+// Justin here adding comments BJ
+
 Servo Left; 
 Servo Right;
 Servo Middle;
